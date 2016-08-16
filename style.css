@@ -1,0 +1,415 @@
+* {
+	margin:0;
+	padding:0;
+}
+a {
+	text-decoration:none;
+}
+ul {
+	list-style:none;
+}
+body {
+	background:url(images/main_content_bg.jpg) repeat;
+}
+/*Misc*/
+.sprite {
+	background:url(images/sprite.png) no-repeat;
+}
+/*Headers*/
+#wrap {
+	position:relative;
+}
+.header {
+	background:url(images/HeaderBGRepeat-X.png) repeat-x;
+	height:84px;
+	position:relative;
+}
+.HeaderShadow {
+	background:url(images/headerShadow.jpg) no-repeat;
+	height:84px;
+	width:980px;
+	margin:0 auto;
+	position:relative;
+	z-index:15;
+}
+.logo {
+	background-position: 0px 0px;
+	position: absolute;
+	bottom: -12px;
+	width: 330px;
+	height: 63px;
+	z-index: 15;
+	left: 3px;
+}
+.MainImage {
+	background: #ccc;
+}
+/*Lead Capture*/
+.ContactForm {
+	background-position: -331px 0px;
+	width: 262px;
+	height: 490px;
+	position: absolute;
+	top: 30px;
+	right: 313px;
+}
+#form {
+	position: absolute;
+	top: -35px;
+	right: -9px;
+	width: 527px;
+	height: 490px;
+	overflow: hidden;
+	z-index:10;
+}
+.verticalFrame {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 538px;
+	height: 490px;
+	border: none;
+	overflow: hidden;
+}
+/*Start Slider*/
+ul.bjqs{position:relative; list-style:none;padding:0;margin:0;overflow:hidden; display:block;}
+li.bjqs-slide{position:absolute; display:none;}
+ul.bjqs-controls{
+	position: relative;
+	top: -135px;
+	left: 90px;
+	width: 1345px;
+	height: 40px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	z-index: 5;
+}
+ul.bjqs-controls.v-centered li a{
+	position:absolute;
+}
+ul.bjqs-controls.v-centered li.bjqs-next a {
+	position: absolute;
+	top: -90px;
+	right: -25px;
+	background: url(images/arrow_right.png) no-repeat;
+	width: 83px;
+	height: 83px;
+}
+ul.bjqs-controls.v-centered li.bjqs-prev a {
+	position: absolute;
+	top: 0px;
+	left: 25px;
+	background: url(images/arrow_left.png) no-repeat;
+	width: 83px;
+	height: 83px;
+}
+ol.bjqs-markers{list-style: none; padding: 0; margin: 0; width:100%;}
+ol.bjqs-markers.h-centered{text-align: center;}
+ol.bjqs-markers li{display:inline;}
+ol.bjqs-markers li a{display:inline-block;}
+p.bjqs-caption{display:block;width:96%;margin:0;padding:2%;position:absolute;bottom:0;}
+.middle {
+	width:1600px;
+	margin:0 auto;
+}
+.bjqs {
+	width:1600px;
+	height:528px;
+	top:0px;
+	left:0px;
+	overflow:hidden;
+}
+.changeBox {
+	background: url(images/MainImgSprite.jpg) no-repeat;
+	width: 1600px;
+	height: 528px;
+	overflow:hidden;
+	position:relative;
+}
+.BinaryTrading {
+	position:absolute;
+	top:30px;
+	left:576px;
+	font-family:helvetica;
+	font-size:30px;
+	text-transform:uppercase;
+}
+.Limit {
+	position:absolute;
+	top:75px;
+	left:672px;
+	font-family:helvetica;
+	font-size:24px;
+	text-transform:uppercase;
+	width:320px;
+	color:#ea4d07;
+}
+.Benefits {
+	position: absolute;
+	top: 150px;
+	left: 805px;
+	list-style: none;
+	font-family: helvetica;
+	font-size: 16px;
+	width: 185px;
+}
+.Benefits li {
+	height:37px;
+}
+.BenefitsCon {
+	font-size: 16px;
+	font-family: helvetica;
+	position: absolute;
+	top: 236px;
+	left: 805px;
+	width: 185px;
+}
+.BenefitsCon li {
+	height:37px;
+}
+.CB1 {
+	background-position:0px 0px;
+}
+.CB2 {
+	background-position:0px -528px;
+}
+.CoachingSession {
+	position: absolute;
+	top: 60px;
+	left: 570px;
+	font-size:24px;
+	font-family:helvetica;
+	font-weight:normal;
+	color:#ea4d07;
+	text-transform:uppercase;
+	width:420px;
+}
+.OneOnOne {
+	color:#000000;
+}
+.PplSay {
+	position: absolute;
+	top: 149px;
+	left: 670px;
+}
+.Expl, .Fil {
+	font-family:"Century Gothic", "URW Gothic L",helvetica, sans-serif;
+	font-style:italic;
+	font-size: 16px;
+}
+.Fil {
+	width: 260px;
+}
+.Expl {
+	width: 268px;
+}
+.Pers {
+	position: absolute;
+	top: 300px;
+	left: 875px;
+}
+.ExName, .ExFrom {
+	font-family:"Century Gothic", "URW Gothic L",helvetica, sans-serif;
+	font-style:italic;
+	font-size:11px;
+}
+.ExFrom {
+	color:#878787;
+}
+/*Main CSS*/
+.MainContent {
+	width: 1010px;
+	position: relative;
+	margin: 30px auto;
+	height:300px;
+}
+/*Box*/
+#ButtonsComp {
+	position: relative;
+	width: 685px;
+	height: 332px;
+	margin: 0 auto;
+	left: 0px;
+	float: left;
+}
+#ButtonsComp ul.Tabs {
+	position: relative;
+	top: 0px;
+	left: 50px;
+	width: 645px;
+	height: 30px;
+	font-family:Arial;
+}
+#ButtonsComp .Tabs li {
+	position:relative;
+	cursor:pointer;
+	float:left;
+	height: 30px;
+}
+#ButtonsComp .Tabs li a {
+	position: absolute;
+	top: 15px;
+	left:10px;
+	text-align: center;
+}
+#ButtonsComp .selected {
+	background-color: #dedede;
+	position:relative;
+	top: -6px;
+	height: 36px !important;
+	z-index: 5;
+	border-radius:0 !important;
+}
+#ButtonsComp .selected a {
+	margin-top:8px;
+}
+#ButtonsComp .selected div.LeftBtn{
+	background-position: -198px -63px;
+	position: absolute;
+	top: 0px;
+	left: -10px;
+	width: 10px;
+	height: 46px;
+}
+#ButtonsComp .selected div.RightBtn{
+	background-position: -209px -63px;
+	position: absolute;
+	top: 0px;
+	right: -10px;
+	width: 10px;
+	height: 46px;
+}
+#ButtonsComp ul.Tabs li a span {
+	color: #000000;
+	font-family: Arial;
+	font-size: 14px;
+	position: relative;
+	top: -10px;
+}
+#ButtonsComp .selected a span {
+	top: -13px !important;
+	color:#ea4d07 !important;
+}
+.AboveBelow, .Seconds, .Speed {
+	z-index:1;
+	width: 115px;
+}
+.AboveBelow span {
+	left: 7px;
+}
+.Seconds span {
+	left: 10px;
+}
+.Speed span {
+	left: 1px;
+}
+.Flip {
+	z-index:1;
+	width: 80px;
+}
+.Flip span {
+	left: 14px;
+}
+.BoxBlurBG {
+	background:#a9a9a9;
+}
+.BorderRadiusRight {
+	border-radius:0px 5px 5px 0px;
+}
+.BorderRadiusLeft {
+	border-radius:5px 0px 0px 5px;
+}
+.box {
+	position:relative;
+	top:0px;
+	width:667px;
+	height:265px;
+	margin:0 auto;
+	background-color: #dedede;
+	border-radius: 10px;
+	box-shadow: 0px 0px 30px 0px #131313;
+	z-index:3;
+}
+.ConImg {
+	float: left;
+	position: absolute;
+	top: 20px;
+	left: 0px;
+	width: 270px;
+	height: 229px;
+}
+.ConTxt {
+	float: left;
+	position: absolute;
+	top: 30px;
+	left: 280px;
+	width: 320px;
+}
+.BoxHeader {
+	font-family: helvetica;
+	font-size: 30px;
+	font-weight: normal;
+	color: #ea4d07;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+.BDes {
+	font-weight: bold;
+	font-family: Arial;
+	font-size: 14px;
+	margin-bottom: 15px;
+	color: #353535;
+}
+.BoxCon {
+	font-family: Arial;
+	font-size: 14px;
+	color: #272727;
+}
+/*ContactUs Bunner*/
+.ContactUs {
+	background-position: -9px -154px;
+	width: 295px;
+	height: 335px;
+	float: right;
+	position: relative;
+	left: -2px;
+}
+.ContactHead {
+	font-family: Arial;
+	font-size: 18px;
+	position: absolute;
+	top: 28px;
+	left: 30px;
+}
+.ContactDes {
+	font-family: helvetica;
+	font-size: 15px;
+	color: #f16025;
+	position: absolute;
+	top: 59px;
+	left: 30px;
+}
+.ContactDes span {
+	font-weight: bold;
+	color: #eeeeee;
+}
+#footer {
+	position:relative;
+	width:980px;
+	margin:30px auto; 
+}
+#footerImg {
+	background: url(images/footerImg.jpg) no-repeat;
+	width: 980px;
+	height: 90px;
+}
+.Disclaimer, .Copyrights {
+	text-align:center;
+	font-size:11px;
+	font-family:Arial;
+	margin-bottom:10px;
+}
+.Copyrights {
+	color:#ababab;
+}
